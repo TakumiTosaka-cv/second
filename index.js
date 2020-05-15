@@ -10,9 +10,12 @@ function run() {
         title: 'Dentaku',
         toolbarSvgIcon: icon24,
         librarySvgIcon: icon48,
-        onClick: () => {
+       /* onClick: () => {
           miro.board.ui.openLibrary('Dentaku2.html', {title: 'Dentaku'})
-        }
+        }*/
+         onClick: () => {
+            alert('Hi!')
+         }
       }
     }
   })
