@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://miro.com/app/static/sdk.1.1.js"></script>
+    <script type="text/javascript" src="builder.js"></script>
+</head>
+
+<body>
+
+<div>
+    <button id="submit" class="build-button">Build template</button>
+</div>
+
+<script>
+
+  addRowInput('TEST')
+
+  document.getElementById("submit")
+      .addEventListener("click", () => drawTemplate(getLabels()))
+
+    //create input
+    const input = document.createElement('input')
+    input.type = 'text'
+    input.classList.add('row-input')
+    input.value = value
+    row.appendChild(input)
+
+    row.appendChild(button)
+  }
+
+  function getLabels() {
+    return Array.from(rowsContainer.querySelectorAll('input')).map(el => el.value)
+  }
+
+</script>
+
+</body>
+</html>
