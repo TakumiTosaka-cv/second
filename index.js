@@ -7,12 +7,9 @@ function run() {
   miro.initialize({
     extensionPoints: {
       toolbar: {
-        title: 'Dentaku',
+        title: 'Builder',
         toolbarSvgIcon: icon24,
         librarySvgIcon: icon48,
-       /* onClick: () => {
-          miro.board.ui.openLibrary('Dentaku2.html', {title: 'Dentaku'})
-        }*/
          onClick: () => {
             miro.board.ui.openLibrary('builder.html', {title: 'Template builder'})
          }
