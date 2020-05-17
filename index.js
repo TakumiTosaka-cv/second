@@ -14,7 +14,7 @@ function run() {
           miro.board.ui.openLibrary('Dentaku2.html', {title: 'Dentaku'})
         }*/
          onClick: () => {
-            alert('Hi!')
+            miro.board.ui.openLibrary('builder.html', {title: 'Template builder'})
          }
       }
     }
