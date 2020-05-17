@@ -14,17 +14,17 @@ function drawTemplate(labels) {
   miro.board.widgets.create(widgets)
 }
 
-/*function getRowLabel(text) {
+function getRowLabel(text) {
   return {
     type: 'text',
     x: -(columnWidth / 2 + fontSize),
     y: y,
     text: text,
     height: fontSize,
-    rotation: 180,
+    rotation: 0,
     style: {
       fontSize: fontSize,
       textAlign: 'c'
     }
   }
-}*/
+}
