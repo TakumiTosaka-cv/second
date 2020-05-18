@@ -20,7 +20,6 @@
   addRowInput('FRONT-END')
   addRowInput('BACK-END')
   addRowInput('DESIGN')
-  addRowInput('MARKETING')
 
   document.getElementById("submit")
       .addEventListener("click", () => drawTemplate(getLabels()))
@@ -36,16 +35,6 @@
     input.classList.add('row-input')
     input.value = value
     row.appendChild(input)
-
-    /*create delete button
-    const button = document.createElement('button')
-    button.textContent = 'Delete'
-    button.classList.add('delete-button')
-    button.addEventListener('click', () => {
-      row.remove()
-    })
-    row.appendChild(button)
-  }*/
 
   function getLabels() {
     return Array.from(rowsContainer.querySelectorAll('input')).map(el => el.value)
