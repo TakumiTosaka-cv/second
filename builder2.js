@@ -1,6 +1,6 @@
 const columnWidth = 200
 const rowHeight = 100
-const fontSize = 48
+const fontSize = 120
 
 function drawTemplate(labels) {
   const widgets = []
