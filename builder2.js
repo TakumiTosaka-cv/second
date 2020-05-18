@@ -9,11 +9,10 @@ function drawTemplate(labels) {
     const rowLabel = labels[rowIdx];
     if(rowLabel) {
       widgets.push(getRowLabel(rowLabel, rowY))
+     }
     }
-    
-    }
-  }
   miro.board.widgets.create(widgets)
+}
 
 
 
