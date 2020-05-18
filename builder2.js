@@ -1,4 +1,4 @@
-const columnWidth = 150
+const columnWidth = 200
 const rowHeight = 100
 const fontSize = 48
 
@@ -24,7 +24,7 @@ function getRowLabel(text, y, color) {
     text: text,
     width: columnWidth,
     height: fontSize,
-    rotation: 90,
+    rotation: 360,
     style: {
       fontSize: fontSize,
       textAlign: 'c'
