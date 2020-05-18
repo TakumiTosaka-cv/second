@@ -24,7 +24,7 @@ function getRowLabel(text, y, color) {
     text: text,
     width: columnWidth,
     height: fontSize,
-    rotation: 0,
+    rotation: 270,
     style: {
       fontSize: fontSize,
       textAlign: 'c'
