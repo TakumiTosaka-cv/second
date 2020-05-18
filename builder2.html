@@ -37,7 +37,7 @@
     input.value = value
     row.appendChild(input)
 
-    //create delete button
+    /*create delete button
     const button = document.createElement('button')
     button.textContent = 'Delete'
     button.classList.add('delete-button')
@@ -45,7 +45,7 @@
       row.remove()
     })
     row.appendChild(button)
-  }
+  }*/
 
   function getLabels() {
     return Array.from(rowsContainer.querySelectorAll('input')).map(el => el.value)
