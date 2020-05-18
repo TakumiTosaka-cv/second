@@ -16,7 +16,7 @@ function drawTemplate(labels) {
 
 
 
-function getRowLabel(text, y, color) {
+function getRowLabel(text, y) {
   return {
     type: 'text',
     x: -(columnWidth / 2 + fontSize),
@@ -24,7 +24,7 @@ function getRowLabel(text, y, color) {
     text: text,
     width: columnWidth,
     height: fontSize,
-    rotation: 360,
+    //rotation: 360,
     style: {
       fontSize: fontSize,
       textAlign: 'c'
