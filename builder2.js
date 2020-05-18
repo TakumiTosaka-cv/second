@@ -14,7 +14,6 @@ function drawTemplate(labels) {
     }
   }
   miro.board.widgets.create(widgets)
-}
 
 
 
