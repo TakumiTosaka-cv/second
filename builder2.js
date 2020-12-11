@@ -4,13 +4,14 @@ const fontSize = 300
 
 function drawTemplate(labels) {
   const widgets = []
-  for (let rowIdx = 0; rowIdx < labels.length; rowIdx++) {
-    const rowY = rowIdx * rowHeight + (10 * rowIdx);
-    const rowLabel = labels[rowIdx];
-    if(rowLabel) {
-      widgets.push(getRowLabel(rowLabel, rowY))
-     }
-    }
+  //for (let rowIdx = 0; rowIdx < labels.length; rowIdx++) {
+    //const rowY = rowIdx * rowHeight + (10 * rowIdx);
+    //const rowLabel = labels[rowIdx];
+    //if(rowLabel) {
+      //widgets.push(getRowLabel(rowLabel, rowY))
+     //}
+    //}
+  widgets.push(labels);
   miro.board.widgets.create(widgets)
 }
 
