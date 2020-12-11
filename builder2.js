@@ -2,6 +2,9 @@ const columnWidth = 250
 const rowHeight = 100
 const fontSize = 300
 
+var img = document.getElementById("baunsu.png");
+
+
 function drawTemplate(labels) {
   const widgets = []
   //for (let rowIdx = 0; rowIdx < labels.length; rowIdx++) {
@@ -13,6 +16,7 @@ function drawTemplate(labels) {
     //}
   widgets.push(labels);
   miro.board.widgets.create(widgets)
+  miro.board.widgets.create(img)
 }
 
 
